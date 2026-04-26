@@ -1,6 +1,23 @@
-# summary-ai
+<h1 align="center">summary-ai</h1>
 
-summary-ai is a full-stack news articles summarizer that leverages modern AI tools. The backend uses Flask, LangChain, and OpenAI to scrape, summarize, and translate news articles. The frontend (built in React) provides an interactive interface for language selection, article listing, and detailed article views.
+<p align="center">
+  <strong>Full-stack news summarizer with translation: Flask + LangChain + OpenAI scrapes URLs, summarizes, and translates; React + Material UI frontend with language picker.</strong>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Working-brightgreen" alt="Status" />
+  <img src="https://img.shields.io/badge/Flask-000?logo=flask&logoColor=white" alt="Flask" />
+  <img src="https://img.shields.io/badge/LangChain-1C3D5A" alt="LangChain" />
+  <img src="https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white" alt="OpenAI" />
+  <img src="https://img.shields.io/badge/React-149ECA?logo=react&logoColor=111111" alt="React" />
+  <img src="https://img.shields.io/badge/License-MIT-blue" alt="License" />
+</p>
+
+---
+
+## What this is
+
+summary-ai is a full-stack news article summarizer that leverages modern AI tools. The backend uses Flask, LangChain, and OpenAI to scrape, summarize, and translate news articles. The frontend (built in React) provides an interactive interface for language selection, article listing, and detailed article views.
 
 ## Index
 - [Backend Functionality](#backend-functionality)
@@ -51,7 +68,7 @@ The project uses the following libraries:
 1. **Clone the repository:**
 
 `` 
-git clone https://github.com/hector-oviedo/summary-ai
+git clone https://github.com/hec-ovi/summary-ai
 ``
 
 2. **Navigate to the backend folder:**
@@ -216,3 +233,9 @@ Then, rebuild and start the containers with:
 ![Language Selection](screenshots/screenshot2.jpg)
 
 ![Language Selection](screenshots/screenshot3.jpg)
+
+---
+
+## License
+
+[MIT](LICENSE) for original code in this repository (Flask backend, React/Vite frontend, scripts, Compose configs). Third-party services consumed at runtime (OpenAI API, NewsAPI) and libraries used (LangChain, newspaper3k, React, Material UI) retain their own upstream licenses and terms of service. The OpenAI API and NewsAPI usage is subject to their respective ToS; this repository does not redistribute keys, content, or fetched articles.
